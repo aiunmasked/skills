@@ -11,6 +11,7 @@ as your first message.
 
 | Skill | What it does |
 |---|---|
+| [Lean and Safe](skills/lean-and-safe/) | Coding skill: the least code that fully does the job, then proof that it does — simple, but never cutting checks, limits or tests. Blind-tested against plain AI and a popular minimal-code skill. |
 | [Free Credits Hunter](skills/free-credits-hunter/) | Finds, applies for and tracks free AI and cloud credits (startup programs, grants, free tiers) — official pages only, you stay in control of passwords, cards and every submission. |
 
 More skills are on the way.
@@ -35,7 +36,7 @@ Then copy the skill folder to where your assistant looks for skills:
 Example for Claude Code:
 
 ```bash
-cp -r skills/skills/free-credits-hunter ~/.claude/skills/
+cp -r skills/skills/lean-and-safe ~/.claude/skills/
 ```
 
 ## How a skill is built
